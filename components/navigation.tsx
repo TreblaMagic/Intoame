@@ -22,7 +22,14 @@ export default function Navigation() {
         <div className="flex justify-between items-center h-16">
           <Link href="/" className="flex items-center gap-2">
             <div className="w-8 h-8 bg-primary rounded-lg flex items-center justify-center">
-              <span className="text-primary-foreground font-bold text-sm">IA</span>
+            <Link href="/" className="flex items-center gap-2">
+            <Image
+              src="/into-africa-logo.png"
+              alt="Into Africa Logo"
+              width={30}
+              height={30}
+              className="object-contain"
+            />
             </div>
             <span className="font-bold text-lg text-primary hidden sm:inline">IntoAfrica</span>
           </Link>

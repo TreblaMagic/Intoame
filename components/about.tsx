@@ -6,7 +6,7 @@ export default function About() {
           <div>
             <h2 className="text-4xl md:text-5xl font-bold text-primary mb-6">About Into Africa</h2>
             <p className="text-lg text-foreground/80 mb-4 leading-relaxed">
-              Into Africa is a strategic investor in Nigeria's oil and gas sector, holding a 2% equity stake in Oilworld
+            Into Africa Mining and Exploration Nigeria Plc is a strategic investor in Nigeria's oil and gas sector, holding a 2% equity stake in Oilworld
               Ltd, the majority stakeholder and operator of the OPL 241 offshore block located in the Dahomey Basin.
             </p>
             <p className="text-lg text-foreground/80 mb-6 leading-relaxed">
