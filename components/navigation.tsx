@@ -3,6 +3,7 @@
 import { useState } from "react"
 import Link from "next/link"
 import { Menu, X } from "lucide-react"
+import Image from "next/image"
 
 export default function Navigation() {
   const [isOpen, setIsOpen] = useState(false)
@@ -21,8 +22,6 @@ export default function Navigation() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           <Link href="/" className="flex items-center gap-2">
-            <div className="w-8 h-8 bg-primary rounded-lg flex items-center justify-center">
-            <Link href="/" className="flex items-center gap-2">
             <Image
               src="/into-africa-logo.png"
               alt="Into Africa Logo"
@@ -30,7 +29,6 @@ export default function Navigation() {
               height={30}
               className="object-contain"
             />
-            </div>
             <span className="font-bold text-lg text-primary hidden sm:inline">IntoAfrica</span>
           </Link>
 
